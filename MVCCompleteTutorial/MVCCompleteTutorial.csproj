@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Areas\Company\**" />
+    <Content Remove="Areas\Company\**" />
+    <EmbeddedResource Remove="Areas\Company\**" />
+    <None Remove="Areas\Company\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.23" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.23" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.13">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MVCCompleteTutorial.DataAccess\MVCCompleteTutorial.DataAccess.csproj" />
+    <ProjectReference Include="..\MVCCompleteTutorial.Utility\MVCCompleteTutorial.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\product\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="MVCCompleteTutorial.Utility">
+      <HintPath>..\MVCCompleteTutorial.Utility\bin\Debug\net6.0\MVCCompleteTutorial.Utility.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,303 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial\\MVCCompleteTutorial.csproj": {}
+  },
+  "projects": {
+    "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.DataAccess\\MVCCompleteTutorial.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.DataAccess\\MVCCompleteTutorial.DataAccess.csproj",
+        "projectName": "MVCCompleteTutorial.DataAccess",
+        "projectPath": "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.DataAccess\\MVCCompleteTutorial.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\sanja\\.nuget\\packages\\",
+        "outputPath": "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.Models\\MVCCompleteTutorial.Models.csproj": {
+                "projectPath": "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.Models\\MVCCompleteTutorial.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.Models\\MVCCompleteTutorial.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.Models\\MVCCompleteTutorial.Models.csproj",
+        "projectName": "MVCCompleteTutorial.Models",
+        "projectPath": "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.Models\\MVCCompleteTutorial.Models.csproj",
+        "packagesPath": "C:\\Users\\sanja\\.nuget\\packages\\",
+        "outputPath": "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.Utility\\MVCCompleteTutorial.Utility.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.Utility\\MVCCompleteTutorial.Utility.csproj",
+        "projectName": "MVCCompleteTutorial.Utility",
+        "projectPath": "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.Utility\\MVCCompleteTutorial.Utility.csproj",
+        "packagesPath": "C:\\Users\\sanja\\.nuget\\packages\\",
+        "outputPath": "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial\\MVCCompleteTutorial.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial\\MVCCompleteTutorial.csproj",
+        "projectName": "MVCCompleteTutorial",
+        "projectPath": "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial\\MVCCompleteTutorial.csproj",
+        "packagesPath": "C:\\Users\\sanja\\.nuget\\packages\\",
+        "outputPath": "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sanja\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.DataAccess\\MVCCompleteTutorial.DataAccess.csproj": {
+                "projectPath": "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.DataAccess\\MVCCompleteTutorial.DataAccess.csproj"
+              },
+              "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.Utility\\MVCCompleteTutorial.Utility.csproj": {
+                "projectPath": "C:\\D_drive\\BulkyBook\\BulkyBookComplete\\MVC_Practice\\MVC_Practice\\MVCCompleteTutorial.Utility\\MVCCompleteTutorial.Utility.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.23, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.23, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
