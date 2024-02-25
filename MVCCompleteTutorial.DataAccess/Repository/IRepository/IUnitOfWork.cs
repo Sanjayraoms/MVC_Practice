@@ -14,6 +14,12 @@ namespace MVCCompleteTutorial.DataAccess.Repository.IRepository
         ICompanyRepository Company { get; }
 
         IShopiingCartRepository ShoppingCart { get; }
+
+        IOrderDetailRepository OrderDetail { get; }
+
+        IOrderHeaderRepository OrderHeader { get; }
+
+        IApplicationUserRepository ApplicationUser { get; }
         void Save();
     }
 }

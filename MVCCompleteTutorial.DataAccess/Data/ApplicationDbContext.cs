@@ -23,6 +23,10 @@ namespace MVCCompleteTutorial.DataAccess.Data
 
         public DbSet<ShoppingCart> shoppingCarts { get; set; }
 
+        public DbSet<OrderHeader> OrderHeaders { get; set; }
+
+        public DbSet<OrderDetail> OrderDetails { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
