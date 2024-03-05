@@ -13,7 +13,7 @@ namespace MVCCompleteTutorial.Models.Models
     {
         public int Id { get; set; }
 
-        public string ApplicationUserId { get; set; }
+        public string? ApplicationUserId { get; set; }
 
         [ForeignKey("ApplicationUserId")]
         [ValidateNever]
